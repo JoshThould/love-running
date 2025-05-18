@@ -44,7 +44,9 @@ h1 {
 #menu > li {
     margin-bottom: 1em;
 }
-
+.active {
+    border-bottom: 1p solid #3a3a3a;
+}
 /* Main content */
 main {
     background-color: lightblue;
