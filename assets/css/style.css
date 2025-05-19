@@ -48,7 +48,7 @@ h1 {
     margin-bottom: 1em;
 }
 .active {
-    border-bottom: 1p solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /*Navbar styles with dropdown toggle */
@@ -122,5 +122,12 @@ footer {
         background-color: #ffffff;
         padding: 1rem 0;
         text-align: center;
+    }
+}
+
+/* Lage devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
